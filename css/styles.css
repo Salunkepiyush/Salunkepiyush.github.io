@@ -9150,36 +9150,30 @@ form .row:first-child .floating-label-form-group {
   margin-bottom: 0.5rem;
 }
 
-/* .slider {
-  width: 50px;
-  height: 40px;
-  position: relative;
-  left: 500px;
-  -webkit-animation: slideIn 2s forwards;
-  -moz-animation: slideIn 2s forwards;
-  animation: slideIn 2s forwards;
+.move {
+  animation: skills 18s infinite;
 }
-@-webkit-keyframes slideIn {
+
+@keyframes skills {
   0% {
-    transform: translateX(-900px);
+    margin-left: 100px;
   }
-  100% {
-    transform: translateX(0);
+  10% {
+    margin-left: 50px;
   }
+  20% {
+    margin-right: 100px;
+  }
+  30% {
+    margin-right: 50px;
+  }
+  40% {
+    margin-left: 100px;
+  }
+  50%{ margin-left: 50px;}
+  60%{ margin-right: 100px;}
+  70%{ margin-right: 50px;}
+  80%{ margin-left: 100px;}
+  90%{ margin-left: 50px;}
+  100%{ margin-right: 50px;}
 }
-@-moz-keyframes slideIn {
-  0% {
-    transform: translateX(-900px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes slideIn {
-  0% {
-    transform: translateX(-900px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-} */
