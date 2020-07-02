@@ -9149,3 +9149,37 @@ form .row:first-child .floating-label-form-group {
 .btn-social {
   margin-bottom: 0.5rem;
 }
+
+/* .slider {
+  width: 50px;
+  height: 40px;
+  position: relative;
+  left: 500px;
+  -webkit-animation: slideIn 2s forwards;
+  -moz-animation: slideIn 2s forwards;
+  animation: slideIn 2s forwards;
+}
+@-webkit-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */
